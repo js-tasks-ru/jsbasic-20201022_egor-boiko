@@ -3,6 +3,6 @@
  * @param {Object} obj
  * @returns {Boolean}
  */
-function isEmpty(obj) {
-  // ваш код...
-}
+
+ function isEmpty(Object){
+  for (let key in Object){return false}return true}
